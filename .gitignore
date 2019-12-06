@@ -5,8 +5,6 @@
 **/*.ova
 **/*.backup
 
-**/*oagkey*
-**/*pub*
 .bak
 
 # End Custom

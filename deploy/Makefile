@@ -32,7 +32,7 @@ removeUpload: uploadDelete
 
 .PHONY: checkConfig
 checkConfig:
-	@test -s ./oagkey.pub || { echo "oagkey.pub does not exist! Creating..."; ssh-keygen -t rsa -N "" -f oagkey; }
+	@test -s ~/.ssh/oagkey.pub || { echo "oagkey.pub does not exist! Creating..."; mkdir -p ~/.ssh; ssh-keygen -t rsa -N "" -f ~/.ssh/oagkey; }
 
 .PHONY: configCreate
 configCreate: checkConfig
