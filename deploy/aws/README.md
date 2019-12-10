@@ -130,7 +130,7 @@ aws ec2 describe-import-image-tasks --import-task-ids <ImportTaskId>
 **Note:** If you wish to change the `Target AMI Name` make the  changes to the **description** attribute in **import-image** command. Keep note of the new `Target AMI Name`, since it has to be provided during config step.
 
 
-### <a id="config-output">Configu script output example</a>
+### <a id="config-output">Config script output example</a>
 
 ```
 oag_console_setup_params =     
