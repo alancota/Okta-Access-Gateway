@@ -20,13 +20,13 @@ Build the Okta Access Gateway infrastructure in AWS
 git clone https://github.com/indranilokg/Okta-Access-Gateway.git
 ````
 
-* Go to the deploy directory
+* Go to the aws deploy directory
 
 ````
-cd Okta-Access-Gateway/deploy
+cd Okta-Access-Gateway/deploy/aws
 ````
 
-* Create file `terraform.tfvars` under **`./aws/oag-upload`** directory. Provide appropriate values for the variables.
+* Create file `terraform.tfvars` under **`./oag-upload`** directory. Provide appropriate values for the variables.
 
 *Example -*
 
@@ -39,7 +39,7 @@ OAG_AMI_NAME = "okta-access-gateway"
 
 [How can you determine your AWS region](https://help.okta.com/en/prod/Content/Topics/Access-Gateway/setup-using-ovf-aws.htm#Determine_Region)
 
-* Create file `terraform.tfvars` under **`./aws/oag-config`** directory. Provide appropriate values for the variables.
+* Create file `terraform.tfvars` under **`./oag-config`** directory. Provide appropriate values for the variables.
 
 *Example -*
 
@@ -53,13 +53,13 @@ OAG_AMI_NAME = "okta-access-gateway"
 
 ## Upload OAG OVA to AWS
 
-To upload the Okta Access Gateway OVA to AWS, run the following command from deploy directory. 
+To upload the Okta Access Gateway OVA to AWS, run the following command from aws deploy directory. 
 
 ```
 make upload
 ```
 
-To remove the OVA, run the following command from deploy directory.
+To remove the OVA, run the following command from aws deploy directory.
 
 ```
 make removeUpload
@@ -67,13 +67,13 @@ make removeUpload
 
 ## Configure OAG
 
-To upload the Okta Access Gateway OVA to AWS, run the following command from deploy directory. 
+To upload the Okta Access Gateway OVA to AWS, run the following command from aws deploy directory. 
 
 ```
 make config
 ```
 
-To remove the OVA, run the following command from deploy directory.
+To remove the OVA, run the following command from aws deploy directory.
 
 ```
 make removeConfig
