@@ -5,6 +5,7 @@
 **OAG** has small footprint and seamlessly replaces existing heavyweight WAM solutions Replace WAM without requiring any changes to applications’ source code. Companies can modernize and migrate from WAM at their own pace, mitigating the risks and costs associated with an all-at-once migration.
 
 
-Check out [here](https://www.okta.com/products/access-gateway/) for more details
+[Know more](https://www.okta.com/products/access-gateway/) 
 
-### OAG Assets
+### Check out
+* [Deploy to AWS](deploy/aws)
