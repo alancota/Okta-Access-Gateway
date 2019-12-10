@@ -3,6 +3,10 @@
 ## Purpose
 Build the Okta Access Gateway infrastructure in AWS
 
+<blockquote>
+The instructions assume that you are using a unix based machine such as Mac OS or Linux based OS.
+</blockquote>
+
 ## Pre-requsites
 
 * Install wget/curl in your local build machine if not already there
