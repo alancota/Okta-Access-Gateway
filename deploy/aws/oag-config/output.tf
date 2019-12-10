@@ -8,8 +8,6 @@ output "post_config_instructions" {
 
 ### Put the following entry in the local host file
 ${aws_eip.v_oag_public_ip.public_ip}  admin gw.gateway.info gw-admin-[yourdomain].gateway.info  gw-admin.gateway.info header.gateway.info wiki.gateway.info
-Example:
-${aws_eip.v_oag_public_ip.public_ip}  admin gw.gateway.info gw-admin-injha.gateway.info  gw-admin.gateway.info header.gateway.info wiki.gateway.info
 
 ### Using command line ssh, connect to the new instance:
 $ ssh oag-mgmt@admin
@@ -25,9 +23,13 @@ Note: The instance may pause for 2-3 minutes but will respond and will return to
 
 After the system is initialized successfully, press any key to return to the menu.
 
-### Recommended: Reset user passwords
-1. Change command line console password using "Change Password" option on the administration menu
-2. Change UI console admin password using "Change Access Gateway Password" option on the administration menu
+### Reset UI console admin password
+
+Change UI console admin password using "Change Access Gateway Password" option on the administration menu.
+
+### Recommended: Reset command line user password
+
+Change command line console password using "Change Password" option on the administration menu.
 EOF
 }
 
