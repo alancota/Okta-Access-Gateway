@@ -1,4 +1,4 @@
-# Okta Access Gateway Assets
+# Okta Access Gateway
 
 **Okta Access Gateway (OAG)** helps secure access to on-prem apps and protect your hybrid cloud – without changing how your apps work today.
 
